@@ -1,0 +1,12 @@
+!def ^>\s(?P<name>.+) .NH\n$name
+!def ^>>\s(?P<name>.+) .NH 2\n$name
+!def ^~PS\s(?P<content>.+) .PP\n$content
+!import info.coen
+
+.TL
+$TITLE
+
+.AU
+$AUTHOR
+
+!import main.coen

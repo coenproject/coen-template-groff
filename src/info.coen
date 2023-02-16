@@ -1,0 +1,3 @@
+!set TARGET ../tgt/main.ms
+!set TITLE Sample Document
+!set AUTHOR Some Guy
