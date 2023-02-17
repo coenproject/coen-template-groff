@@ -1,6 +1,15 @@
 !def ^>\s(?P<name>.+) .NH\n$name
 !def ^>>\s(?P<name>.+) .NH 2\n$name
 !def ^~PS\s(?P<content>.+) .PP\n$content
+
+!def \*(?P<text>.+)\*\s \n.B "$text"\n
+!def \*(?P<text>.+)\*\.($|\s) \n.B "$text".\n
+!def \*(?P<text>.+)\* \n.B "$text"\n
+
+!def /(?P<text>.+)/\s \n.I "$text"\n
+!def /(?P<text>.+)/\.($|\s) \n.I "$text".\n
+!def /(?P<text>.+)/ \n.I "$text"\n
+
 !import info.coen
 
 .TL

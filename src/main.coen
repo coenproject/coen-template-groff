@@ -1,9 +1,2 @@
-> Section 1
-~PS Content 1
-
-> Section 2
-~PS Content 2
-
-  >> Subsection 2.1
-  ~PS Content 2.1
-  ~PS I can add something yaha pe and this is supposed to be fast af
+> Section
+~PS Use *bold* and /italics/ like this.
